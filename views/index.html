@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio GRupal 4-M6</title>
+</head>
+<body>
+    <head>
+        <title>Black and White Spa</title>
+        <!--link al CSS propio para mostrar la imagen-->
+        <link rel="stylesheet" href="../public/assets/css/styles.css">
+    </head>
+    <body>
+        <h1>Black and White Spa</h1>
+        <h3>Pega la url de tu imagen y bualá!</h3>
+        <!-- Formulario para pegar la url de la imagen que queremos procesar-->
+        <form method="POST" action="/process">
+            <label for="imageUrl">URL de la imagen:</label>
+            <input type="text" id="imageUrl" name="imageUrl" required>
+            <button type="submit">haz tu magia</button>
+        </form>
+    </body>
+</body>
+</html>
